@@ -48,6 +48,7 @@ if __name__ == '__main__':
    n1 = xc1.shape[1]
    n2 = xc2.shape[1]
    n3 = xc3.shape[1]
+   
    mu1 = np.matrix(np.mean(xc1,1),dtype=np.float16)
    mu2 = np.matrix(np.mean(xc2,1),dtype=np.float16)
    mu3 = np.matrix(np.mean(xc3,1),dtype=np.float16)
